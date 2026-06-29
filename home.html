@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio - Sensores MQTT{% endblock %}
+
+{% block content %}
+<div class="text-center py-5">
+  <h1 class="mb-4 fw-bold">Sistema de Monitoreo MQTT</h1>
+  <p class="lead">Seleccionar una opción para comenzar:</p>
+
+  <div class="d-flex justify-content-center gap-4 mt-4">
+    <a href="/panel" class="btn btn-primary btn-lg">
+      Panel Tiempo Real
+    </a>
+    <a href="/historial" class="btn btn-secondary btn-lg">
+      Historial de Datos
+    </a>
+  </div>
+</div>
+{% endblock %}
